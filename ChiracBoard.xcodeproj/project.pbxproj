@@ -7,12 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3718DD9B1A8FB2BB004F349A /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3718DD9A1A8FAFCB004F349A /* BebasNeue.otf */; };
+		37198FF81A8FE50900036DCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37198FF71A8FE50900036DCD /* Images.xcassets */; };
+		37198FFA1A8FF43B00036DCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37198FF91A8FF43B00036DCD /* LaunchScreen.xib */; };
+		3740E7431A8FC16800EA4C6A /* Droits de l'homme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3740E7421A8FC16800EA4C6A /* Droits de l'homme.mp3 */; };
 		374809501A8F745300DCD446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748094F1A8F745300DCD446 /* AppDelegate.swift */; };
 		374809521A8F745300DCD446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374809511A8F745300DCD446 /* ViewController.swift */; };
 		374809551A8F745300DCD446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 374809531A8F745300DCD446 /* Main.storyboard */; };
-		374809571A8F745300DCD446 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374809561A8F745300DCD446 /* Images.xcassets */; };
-		3748095A1A8F745300DCD446 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 374809581A8F745300DCD446 /* LaunchScreen.xib */; };
 		374809661A8F745400DCD446 /* ChiracBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374809651A8F745400DCD446 /* ChiracBoardTests.swift */; };
+		3748099D1A8F752000DCD446 /* Abracadabra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809701A8F752000DCD446 /* Abracadabra.mp3 */; };
+		3748099E1A8F752000DCD446 /* Allo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809711A8F752000DCD446 /* Allo.mp3 */; };
+		3748099F1A8F752000DCD446 /* Banalisation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809721A8F752000DCD446 /* Banalisation.mp3 */; };
+		374809A01A8F752000DCD446 /* Bonjour.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809731A8F752000DCD446 /* Bonjour.mp3 */; };
+		374809A11A8F752000DCD446 /* Bovins.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809741A8F752000DCD446 /* Bovins.mp3 */; };
+		374809A21A8F752000DCD446 /* Bruit et odeur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809751A8F752000DCD446 /* Bruit et odeur.mp3 */; };
+		374809A31A8F752000DCD446 /* Bûches.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809761A8F752000DCD446 /* Bûches.mp3 */; };
+		374809A41A8F752000DCD446 /* Ca rate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809771A8F752000DCD446 /* Ca rate.mp3 */; };
+		374809A51A8F752000DCD446 /* Bonus 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809781A8F752000DCD446 /* Bonus 2.mp3 */; };
+		374809A61A8F752000DCD446 /* Chlorophorme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809791A8F752000DCD446 /* Chlorophorme.mp3 */; };
+		374809A71A8F752000DCD446 /* Cidre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748097A1A8F752000DCD446 /* Cidre.mp3 */; };
+		374809A81A8F752000DCD446 /* Clarification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748097B1A8F752000DCD446 /* Clarification.mp3 */; };
+		374809A91A8F752000DCD446 /* Colère.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748097C1A8F752000DCD446 /* Colère.mp3 */; };
+		374809AA1A8F752000DCD446 /* Coloriage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748097D1A8F752000DCD446 /* Coloriage.mp3 */; };
+		374809AB1A8F752000DCD446 /* Compatriotes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748097E1A8F752000DCD446 /* Compatriotes.mp3 */; };
+		374809AC1A8F752000DCD446 /* Concorde.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748097F1A8F752000DCD446 /* Concorde.mp3 */; };
+		374809AD1A8F752000DCD446 /* Content.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809801A8F752000DCD446 /* Content.mp3 */; };
+		374809AE1A8F752000DCD446 /* Coupe de France.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809811A8F752000DCD446 /* Coupe de France.mp3 */; };
+		374809AF1A8F752000DCD446 /* Dans les yeux.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809821A8F752000DCD446 /* Dans les yeux.mp3 */; };
+		374809B01A8F752000DCD446 /* Dissolution.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809831A8F752000DCD446 /* Dissolution.mp3 */; };
+		374809B11A8F752000DCD446 /* Execution.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809841A8F752000DCD446 /* Execution.mp3 */; };
+		374809B21A8F752000DCD446 /* France 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809851A8F752000DCD446 /* France 2.mp3 */; };
+		374809B31A8F752000DCD446 /* Fureur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809861A8F752000DCD446 /* Fureur.mp3 */; };
+		374809B41A8F752000DCD446 /* Inadmissible.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809871A8F752000DCD446 /* Inadmissible.mp3 */; };
+		374809B51A8F752000DCD446 /* Je tiens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809881A8F752000DCD446 /* Je tiens.mp3 */; };
+		374809B61A8F752000DCD446 /* Je veux.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809891A8F752000DCD446 /* Je veux.mp3 */; };
+		374809B71A8F752000DCD446 /* Lapin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748098A1A8F752000DCD446 /* Lapin.mp3 */; };
+		374809B81A8F752000DCD446 /* Loin mais beau.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748098B1A8F752000DCD446 /* Loin mais beau.mp3 */; };
+		374809B91A8F752000DCD446 /* Maison.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748098C1A8F752000DCD446 /* Maison.mp3 */; };
+		374809BA1A8F752000DCD446 /* Plaçou.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748098D1A8F752000DCD446 /* Plaçou.mp3 */; };
+		374809BB1A8F752000DCD446 /* Politique.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748098E1A8F752000DCD446 /* Politique.mp3 */; };
+		374809BC1A8F752000DCD446 /* Pomme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748098F1A8F752000DCD446 /* Pomme.mp3 */; };
+		374809BD1A8F752000DCD446 /* Pommes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809901A8F752000DCD446 /* Pommes.mp3 */; };
+		374809BE1A8F752000DCD446 /* Président.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809911A8F752000DCD446 /* Président.mp3 */; };
+		374809BF1A8F752000DCD446 /* Pschit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809921A8F752000DCD446 /* Pschit.mp3 */; };
+		374809C01A8F752000DCD446 /* Publicité.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809931A8F752000DCD446 /* Publicité.mp3 */; };
+		374809C11A8F752000DCD446 /* Reflexion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809941A8F752000DCD446 /* Reflexion.mp3 */; };
+		374809C21A8F752000DCD446 /* Rien vu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809951A8F752000DCD446 /* Rien vu.mp3 */; };
+		374809C31A8F752000DCD446 /* Roquet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809961A8F752000DCD446 /* Roquet.mp3 */; };
+		374809C41A8F752000DCD446 /* Sale gueule.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809971A8F752000DCD446 /* Sale gueule.mp3 */; };
+		374809C51A8F752000DCD446 /* Bonus 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809981A8F752000DCD446 /* Bonus 1.mp3 */; };
+		374809C61A8F752000DCD446 /* Servir.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 374809991A8F752000DCD446 /* Servir.mp3 */; };
+		374809C71A8F752000DCD446 /* Terrorisme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748099A1A8F752000DCD446 /* Terrorisme.mp3 */; };
+		374809C81A8F752000DCD446 /* Traque.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748099B1A8F752000DCD446 /* Traque.mp3 */; };
+		374809C91A8F752000DCD446 /* Vive la France.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3748099C1A8F752000DCD446 /* Vive la France.mp3 */; };
+		374809CB1A8F77B700DCD446 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374809CA1A8F77B700DCD446 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +74,65 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3718DD9A1A8FAFCB004F349A /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = BebasNeue.otf; path = ../../../../../../Library/Fonts/BebasNeue.otf; sourceTree = "<group>"; };
+		37198FF71A8FE50900036DCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37198FF91A8FF43B00036DCD /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../../../../../../.Trash/LaunchScreen.xib; sourceTree = "<group>"; };
+		3740E73C1A8FB57E00EA4C6A /* ChiracBoard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChiracBoard-Bridging-Header.h"; sourceTree = "<group>"; };
+		3740E7421A8FC16800EA4C6A /* Droits de l'homme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Droits de l'homme.mp3"; sourceTree = "<group>"; };
 		3748094A1A8F745300DCD446 /* ChiracBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChiracBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3748094E1A8F745300DCD446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3748094F1A8F745300DCD446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		374809511A8F745300DCD446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		374809541A8F745300DCD446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		374809561A8F745300DCD446 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		374809591A8F745300DCD446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3748095F1A8F745400DCD446 /* ChiracBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChiracBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374809641A8F745400DCD446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		374809651A8F745400DCD446 /* ChiracBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiracBoardTests.swift; sourceTree = "<group>"; };
+		374809701A8F752000DCD446 /* Abracadabra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Abracadabra.mp3; sourceTree = "<group>"; };
+		374809711A8F752000DCD446 /* Allo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Allo.mp3; sourceTree = "<group>"; };
+		374809721A8F752000DCD446 /* Banalisation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Banalisation.mp3; sourceTree = "<group>"; };
+		374809731A8F752000DCD446 /* Bonjour.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bonjour.mp3; sourceTree = "<group>"; };
+		374809741A8F752000DCD446 /* Bovins.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bovins.mp3; sourceTree = "<group>"; };
+		374809751A8F752000DCD446 /* Bruit et odeur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bruit et odeur.mp3"; sourceTree = "<group>"; };
+		374809761A8F752000DCD446 /* Bûches.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bûches.mp3"; sourceTree = "<group>"; };
+		374809771A8F752000DCD446 /* Ca rate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ca rate.mp3"; sourceTree = "<group>"; };
+		374809781A8F752000DCD446 /* Bonus 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bonus 2.mp3"; sourceTree = "<group>"; };
+		374809791A8F752000DCD446 /* Chlorophorme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chlorophorme.mp3; sourceTree = "<group>"; };
+		3748097A1A8F752000DCD446 /* Cidre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cidre.mp3; sourceTree = "<group>"; };
+		3748097B1A8F752000DCD446 /* Clarification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Clarification.mp3; sourceTree = "<group>"; };
+		3748097C1A8F752000DCD446 /* Colère.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Colère.mp3"; sourceTree = "<group>"; };
+		3748097D1A8F752000DCD446 /* Coloriage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Coloriage.mp3; sourceTree = "<group>"; };
+		3748097E1A8F752000DCD446 /* Compatriotes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Compatriotes.mp3; sourceTree = "<group>"; };
+		3748097F1A8F752000DCD446 /* Concorde.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Concorde.mp3; sourceTree = "<group>"; };
+		374809801A8F752000DCD446 /* Content.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Content.mp3; sourceTree = "<group>"; };
+		374809811A8F752000DCD446 /* Coupe de France.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Coupe de France.mp3"; sourceTree = "<group>"; };
+		374809821A8F752000DCD446 /* Dans les yeux.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dans les yeux.mp3"; sourceTree = "<group>"; };
+		374809831A8F752000DCD446 /* Dissolution.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dissolution.mp3; sourceTree = "<group>"; };
+		374809841A8F752000DCD446 /* Execution.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Execution.mp3; sourceTree = "<group>"; };
+		374809851A8F752000DCD446 /* France 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "France 2.mp3"; sourceTree = "<group>"; };
+		374809861A8F752000DCD446 /* Fureur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fureur.mp3; sourceTree = "<group>"; };
+		374809871A8F752000DCD446 /* Inadmissible.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Inadmissible.mp3; sourceTree = "<group>"; };
+		374809881A8F752000DCD446 /* Je tiens.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Je tiens.mp3"; sourceTree = "<group>"; };
+		374809891A8F752000DCD446 /* Je veux.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Je veux.mp3"; sourceTree = "<group>"; };
+		3748098A1A8F752000DCD446 /* Lapin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lapin.mp3; sourceTree = "<group>"; };
+		3748098B1A8F752000DCD446 /* Loin mais beau.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Loin mais beau.mp3"; sourceTree = "<group>"; };
+		3748098C1A8F752000DCD446 /* Maison.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Maison.mp3; sourceTree = "<group>"; };
+		3748098D1A8F752000DCD446 /* Plaçou.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Plaçou.mp3"; sourceTree = "<group>"; };
+		3748098E1A8F752000DCD446 /* Politique.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Politique.mp3; sourceTree = "<group>"; };
+		3748098F1A8F752000DCD446 /* Pomme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pomme.mp3; sourceTree = "<group>"; };
+		374809901A8F752000DCD446 /* Pommes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pommes.mp3; sourceTree = "<group>"; };
+		374809911A8F752000DCD446 /* Président.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Président.mp3"; sourceTree = "<group>"; };
+		374809921A8F752000DCD446 /* Pschit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pschit.mp3; sourceTree = "<group>"; };
+		374809931A8F752000DCD446 /* Publicité.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Publicité.mp3"; sourceTree = "<group>"; };
+		374809941A8F752000DCD446 /* Reflexion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Reflexion.mp3; sourceTree = "<group>"; };
+		374809951A8F752000DCD446 /* Rien vu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rien vu.mp3"; sourceTree = "<group>"; };
+		374809961A8F752000DCD446 /* Roquet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Roquet.mp3; sourceTree = "<group>"; };
+		374809971A8F752000DCD446 /* Sale gueule.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sale gueule.mp3"; sourceTree = "<group>"; };
+		374809981A8F752000DCD446 /* Bonus 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bonus 1.mp3"; sourceTree = "<group>"; };
+		374809991A8F752000DCD446 /* Servir.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Servir.mp3; sourceTree = "<group>"; };
+		3748099A1A8F752000DCD446 /* Terrorisme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Terrorisme.mp3; sourceTree = "<group>"; };
+		3748099B1A8F752000DCD446 /* Traque.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Traque.mp3; sourceTree = "<group>"; };
+		3748099C1A8F752000DCD446 /* Vive la France.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Vive la France.mp3"; sourceTree = "<group>"; };
+		374809CA1A8F77B700DCD446 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +174,16 @@
 		3748094C1A8F745300DCD446 /* ChiracBoard */ = {
 			isa = PBXGroup;
 			children = (
+				3718DD9A1A8FAFCB004F349A /* BebasNeue.otf */,
+				3748096F1A8F748E00DCD446 /* Sounds */,
 				3748094F1A8F745300DCD446 /* AppDelegate.swift */,
 				374809511A8F745300DCD446 /* ViewController.swift */,
+				37198FF71A8FE50900036DCD /* Images.xcassets */,
+				37198FF91A8FF43B00036DCD /* LaunchScreen.xib */,
 				374809531A8F745300DCD446 /* Main.storyboard */,
-				374809561A8F745300DCD446 /* Images.xcassets */,
-				374809581A8F745300DCD446 /* LaunchScreen.xib */,
 				3748094D1A8F745300DCD446 /* Supporting Files */,
+				374809CA1A8F77B700DCD446 /* CollectionViewCell.swift */,
+				3740E73C1A8FB57E00EA4C6A /* ChiracBoard-Bridging-Header.h */,
 			);
 			path = ChiracBoard;
 			sourceTree = "<group>";
@@ -110,6 +211,59 @@
 				374809641A8F745400DCD446 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3748096F1A8F748E00DCD446 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				374809701A8F752000DCD446 /* Abracadabra.mp3 */,
+				374809711A8F752000DCD446 /* Allo.mp3 */,
+				374809721A8F752000DCD446 /* Banalisation.mp3 */,
+				374809731A8F752000DCD446 /* Bonjour.mp3 */,
+				374809741A8F752000DCD446 /* Bovins.mp3 */,
+				374809751A8F752000DCD446 /* Bruit et odeur.mp3 */,
+				374809761A8F752000DCD446 /* Bûches.mp3 */,
+				374809771A8F752000DCD446 /* Ca rate.mp3 */,
+				374809781A8F752000DCD446 /* Bonus 2.mp3 */,
+				374809791A8F752000DCD446 /* Chlorophorme.mp3 */,
+				3748097A1A8F752000DCD446 /* Cidre.mp3 */,
+				3748097B1A8F752000DCD446 /* Clarification.mp3 */,
+				3748097C1A8F752000DCD446 /* Colère.mp3 */,
+				3748097D1A8F752000DCD446 /* Coloriage.mp3 */,
+				3748097E1A8F752000DCD446 /* Compatriotes.mp3 */,
+				3748097F1A8F752000DCD446 /* Concorde.mp3 */,
+				374809801A8F752000DCD446 /* Content.mp3 */,
+				374809811A8F752000DCD446 /* Coupe de France.mp3 */,
+				374809821A8F752000DCD446 /* Dans les yeux.mp3 */,
+				3740E7421A8FC16800EA4C6A /* Droits de l'homme.mp3 */,
+				374809831A8F752000DCD446 /* Dissolution.mp3 */,
+				374809841A8F752000DCD446 /* Execution.mp3 */,
+				374809851A8F752000DCD446 /* France 2.mp3 */,
+				374809861A8F752000DCD446 /* Fureur.mp3 */,
+				374809871A8F752000DCD446 /* Inadmissible.mp3 */,
+				374809881A8F752000DCD446 /* Je tiens.mp3 */,
+				374809891A8F752000DCD446 /* Je veux.mp3 */,
+				3748098A1A8F752000DCD446 /* Lapin.mp3 */,
+				3748098B1A8F752000DCD446 /* Loin mais beau.mp3 */,
+				3748098C1A8F752000DCD446 /* Maison.mp3 */,
+				3748098D1A8F752000DCD446 /* Plaçou.mp3 */,
+				3748098E1A8F752000DCD446 /* Politique.mp3 */,
+				3748098F1A8F752000DCD446 /* Pomme.mp3 */,
+				374809901A8F752000DCD446 /* Pommes.mp3 */,
+				374809911A8F752000DCD446 /* Président.mp3 */,
+				374809921A8F752000DCD446 /* Pschit.mp3 */,
+				374809931A8F752000DCD446 /* Publicité.mp3 */,
+				374809941A8F752000DCD446 /* Reflexion.mp3 */,
+				374809951A8F752000DCD446 /* Rien vu.mp3 */,
+				374809961A8F752000DCD446 /* Roquet.mp3 */,
+				374809971A8F752000DCD446 /* Sale gueule.mp3 */,
+				374809981A8F752000DCD446 /* Bonus 1.mp3 */,
+				374809991A8F752000DCD446 /* Servir.mp3 */,
+				3748099A1A8F752000DCD446 /* Terrorisme.mp3 */,
+				3748099B1A8F752000DCD446 /* Traque.mp3 */,
+				3748099C1A8F752000DCD446 /* Vive la France.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +315,7 @@
 				TargetAttributes = {
 					374809491A8F745300DCD446 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7K3Z2N2BX9;
 					};
 					3748095E1A8F745400DCD446 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -192,9 +347,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374809B51A8F752000DCD446 /* Je tiens.mp3 in Resources */,
+				374809A01A8F752000DCD446 /* Bonjour.mp3 in Resources */,
+				374809A51A8F752000DCD446 /* Bonus 2.mp3 in Resources */,
+				374809C51A8F752000DCD446 /* Bonus 1.mp3 in Resources */,
+				374809BF1A8F752000DCD446 /* Pschit.mp3 in Resources */,
+				374809BB1A8F752000DCD446 /* Politique.mp3 in Resources */,
+				374809C91A8F752000DCD446 /* Vive la France.mp3 in Resources */,
+				374809A11A8F752000DCD446 /* Bovins.mp3 in Resources */,
+				37198FF81A8FE50900036DCD /* Images.xcassets in Resources */,
+				374809C31A8F752000DCD446 /* Roquet.mp3 in Resources */,
+				37198FFA1A8FF43B00036DCD /* LaunchScreen.xib in Resources */,
+				374809B81A8F752000DCD446 /* Loin mais beau.mp3 in Resources */,
+				3740E7431A8FC16800EA4C6A /* Droits de l'homme.mp3 in Resources */,
+				374809C11A8F752000DCD446 /* Reflexion.mp3 in Resources */,
+				374809C81A8F752000DCD446 /* Traque.mp3 in Resources */,
+				374809A91A8F752000DCD446 /* Colère.mp3 in Resources */,
+				374809AD1A8F752000DCD446 /* Content.mp3 in Resources */,
+				374809B21A8F752000DCD446 /* France 2.mp3 in Resources */,
+				374809A81A8F752000DCD446 /* Clarification.mp3 in Resources */,
+				374809C71A8F752000DCD446 /* Terrorisme.mp3 in Resources */,
+				374809AF1A8F752000DCD446 /* Dans les yeux.mp3 in Resources */,
+				374809B71A8F752000DCD446 /* Lapin.mp3 in Resources */,
 				374809551A8F745300DCD446 /* Main.storyboard in Resources */,
-				3748095A1A8F745300DCD446 /* LaunchScreen.xib in Resources */,
-				374809571A8F745300DCD446 /* Images.xcassets in Resources */,
+				374809B61A8F752000DCD446 /* Je veux.mp3 in Resources */,
+				374809A41A8F752000DCD446 /* Ca rate.mp3 in Resources */,
+				374809A31A8F752000DCD446 /* Bûches.mp3 in Resources */,
+				374809B91A8F752000DCD446 /* Maison.mp3 in Resources */,
+				374809B31A8F752000DCD446 /* Fureur.mp3 in Resources */,
+				374809C41A8F752000DCD446 /* Sale gueule.mp3 in Resources */,
+				374809AB1A8F752000DCD446 /* Compatriotes.mp3 in Resources */,
+				374809B01A8F752000DCD446 /* Dissolution.mp3 in Resources */,
+				374809A71A8F752000DCD446 /* Cidre.mp3 in Resources */,
+				374809B41A8F752000DCD446 /* Inadmissible.mp3 in Resources */,
+				374809AE1A8F752000DCD446 /* Coupe de France.mp3 in Resources */,
+				374809A61A8F752000DCD446 /* Chlorophorme.mp3 in Resources */,
+				374809B11A8F752000DCD446 /* Execution.mp3 in Resources */,
+				374809AC1A8F752000DCD446 /* Concorde.mp3 in Resources */,
+				374809C21A8F752000DCD446 /* Rien vu.mp3 in Resources */,
+				374809C61A8F752000DCD446 /* Servir.mp3 in Resources */,
+				374809A21A8F752000DCD446 /* Bruit et odeur.mp3 in Resources */,
+				3748099D1A8F752000DCD446 /* Abracadabra.mp3 in Resources */,
+				374809BE1A8F752000DCD446 /* Président.mp3 in Resources */,
+				374809AA1A8F752000DCD446 /* Coloriage.mp3 in Resources */,
+				3748099E1A8F752000DCD446 /* Allo.mp3 in Resources */,
+				374809BA1A8F752000DCD446 /* Plaçou.mp3 in Resources */,
+				374809BD1A8F752000DCD446 /* Pommes.mp3 in Resources */,
+				3748099F1A8F752000DCD446 /* Banalisation.mp3 in Resources */,
+				374809C01A8F752000DCD446 /* Publicité.mp3 in Resources */,
+				374809BC1A8F752000DCD446 /* Pomme.mp3 in Resources */,
+				3718DD9B1A8FB2BB004F349A /* BebasNeue.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +416,7 @@
 			files = (
 				374809521A8F745300DCD446 /* ViewController.swift in Sources */,
 				374809501A8F745300DCD446 /* AppDelegate.swift in Sources */,
+				374809CB1A8F77B700DCD446 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,14 +445,6 @@
 				374809541A8F745300DCD446 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		374809581A8F745300DCD446 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				374809591A8F745300DCD446 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,9 +531,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ChiracBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChiracBoard/ChiracBoard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +546,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ChiracBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChiracBoard/ChiracBoard-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +609,7 @@
 				3748096B1A8F745400DCD446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3748096C1A8F745400DCD446 /* Build configuration list for PBXNativeTarget "ChiracBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +618,7 @@
 				3748096E1A8F745400DCD446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="BebasNeue.otf">
+            <string>BebasNeue</string>
+            <string>BebasNeue</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ChiracBoard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +22,98 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="JQT-oP-Kaf">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="GSO-ad-VoK">
+                                    <size key="itemSize" width="300" height="150"/>
+                                    <size key="headerReferenceSize" width="50" height="50"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCellId" id="Lpw-Q4-RT2" customClass="CollectionViewCell" customModule="ChiracBoard" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="22t-hn-MEh">
+                                                    <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xs6-Fc-6gq">
+                                                    <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Abracadabra" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QX1-hv-gVe">
+                                                    <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
+                                                    <fontDescription key="fontDescription" name="BebasNeue" family="Bebas Neue" pointSize="30"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <size key="shadowOffset" width="0.0" height="1"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="22t-hn-MEh" firstAttribute="top" secondItem="Lpw-Q4-RT2" secondAttribute="topMargin" constant="-8" id="76g-Zm-KKK"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="xs6-Fc-6gq" secondAttribute="trailing" constant="-8" id="DUU-Ba-2xM"/>
+                                            <constraint firstItem="22t-hn-MEh" firstAttribute="leading" secondItem="Lpw-Q4-RT2" secondAttribute="leadingMargin" constant="-8" id="Dur-0Y-H9T"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="QX1-hv-gVe" secondAttribute="trailing" constant="-8" id="Ipx-CR-8Ya"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="22t-hn-MEh" secondAttribute="bottom" constant="-8" id="JUj-S1-GN4"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="22t-hn-MEh" secondAttribute="trailing" constant="-8" id="L9z-eA-aQE"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="QX1-hv-gVe" secondAttribute="bottom" constant="-8" id="Ngr-od-DUb"/>
+                                            <constraint firstItem="QX1-hv-gVe" firstAttribute="top" secondItem="Lpw-Q4-RT2" secondAttribute="topMargin" constant="-8" id="RPW-0I-2WS"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="QX1-hv-gVe" secondAttribute="trailing" constant="-8" id="aDN-1e-2tW"/>
+                                            <constraint firstItem="xs6-Fc-6gq" firstAttribute="top" secondItem="Lpw-Q4-RT2" secondAttribute="topMargin" constant="-8" id="fjd-PQ-2Vw"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="QX1-hv-gVe" secondAttribute="bottom" constant="57" id="jw2-RR-s7K"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="xs6-Fc-6gq" secondAttribute="bottom" constant="-8" id="kkf-6c-Gim"/>
+                                            <constraint firstItem="QX1-hv-gVe" firstAttribute="leading" secondItem="Lpw-Q4-RT2" secondAttribute="leadingMargin" constant="-8" id="ptQ-cD-vfs"/>
+                                            <constraint firstItem="xs6-Fc-6gq" firstAttribute="leading" secondItem="Lpw-Q4-RT2" secondAttribute="leadingMargin" constant="-8" id="uc5-kI-WpP"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="blurView" destination="xs6-Fc-6gq" id="hSM-Cb-Jpz"/>
+                                            <outlet property="imageView" destination="22t-hn-MEh" id="las-Ez-eSR"/>
+                                            <outlet property="labelView" destination="QX1-hv-gVe" id="def-qG-Adk"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="m8L-Xo-3np">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chirac Board" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFF-fF-6U8">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                            <fontDescription key="fontDescription" name="BebasNeue" family="Bebas Neue" pointSize="29"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="HFF-fF-6U8" secondAttribute="trailing" constant="-8" id="BNp-AC-J84"/>
+                                        <constraint firstItem="HFF-fF-6U8" firstAttribute="leading" secondItem="m8L-Xo-3np" secondAttribute="leadingMargin" constant="-8" id="Cs4-xQ-da1"/>
+                                        <constraint firstItem="HFF-fF-6U8" firstAttribute="top" secondItem="m8L-Xo-3np" secondAttribute="topMargin" constant="-8" id="ofm-1O-cdb"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="HFF-fF-6U8" secondAttribute="bottom" constant="-8" id="urw-Ni-4Fh"/>
+                                    </constraints>
+                                </collectionReusableView>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="JQT-oP-Kaf" secondAttribute="trailing" constant="-16" id="RuY-MW-gd7"/>
+                            <constraint firstItem="JQT-oP-Kaf" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="Y4f-8n-opF"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="JQT-oP-Kaf" secondAttribute="bottom" id="Zgj-Dq-52Y"/>
+                            <constraint firstItem="JQT-oP-Kaf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="kOu-pQ-c7L"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="JQT-oP-Kaf" id="qxn-50-5mp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="288" y="347"/>
         </scene>
     </scenes>
 </document>
